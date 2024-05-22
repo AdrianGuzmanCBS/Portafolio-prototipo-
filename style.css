@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  font-family: 'Poppins', Sans-Serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.root{
+  --primary-color: white;
+  --secondary-color: purple;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 2.3em;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.logo span{
+  color: var(--secondary-color);
+}
+
+.navegacion a{
+  font-size: 1.2em;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-right: 40px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.navegacion a:hover{
+  color: aqua;
+}
+
+.btn-hablar{
+  color: violet;
+  text-decoration: none;
+  padding: 8px 35px;
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid purple;
+  font-weight: 600;
+  transition:.3s;
+}
+
+.btn-hablar:hover{
+  color: purple;
+  background: transparent;
+}
+
+.inicio{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(background\ \(ffondo-violeta-abstracto-malla-llama-estilo-tecnologia-futurista_1217-1138).jpg);
+  background-position: center;
+  display: fflex
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.contenido{
+  max-width: 500px;
+  color: var(--primary-color);
+}
+
+.contenido h2{
+  font-size: 3em;
+}
+
+.contenido h2 span{
+  color: var(--secondary-color);
+}
+
+.contenido h4{
+  font-size: 2em;
+}
+
+.contenido p{
+  padding: 10px 0 40px 0;
+}
+
+.btn-grupo a{
+  color: yellow;
+  text-decoration: none;
+  padding:10px 40px;
+  background: black;
+  border-radius: 10px;
+  border: 2px solid purple;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.btn-grupo a:hover:nth-child(1){
+  background-color: transparent;
+  color: purple;
+}
+
+.btn-grupo a:nth-child(2){
+  color: var(--secondary-color);
+  background: transparent
+  margin-left: 30px
+  padding: 10px 30px;
+}
+
+.btn-grupo a:hover:nth-child(1){
+  background-color: var(--secondary-color);
+  color: purple;
+}
+
+.iconos-redes{
+  position: absolute;
+  botton:500px
+}
+
+.iconos-redes a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 50%;
+  margin-right: 22px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid white;
+  outline: 2px solid purple;
+  transition: .3s;
+}
+  .iconos-redes a:hover{
+  transform: translateY(-5px);
+}
+
+.iconos-redes a i{
+  color: purple;
+}
+}
